@@ -1,0 +1,61 @@
+#header img{
+	width: 50px;
+}
+.btn-hans{
+	background: #5ba75b;
+	color: white;
+}
+
+nav.color{
+	background: #abbaca !important;
+
+}
+.texto{
+	color: #65a565 !important;
+}
+.texto:hover{
+	color: #7abb7a !important;
+}
+.letra a:hover{
+	color: #fff !important;
+}
+#main .carousel-inner img{
+	max-height: 70vh;				
+	object-fit: cover;		/*cuadrar la imagen*/
+	filter: grayscale(70%); /*escala de grises*/
+}
+#carousel{
+	position: relative;
+}
+#carousel .overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	color: white;
+	z-index: 1;
+}
+#carousel .row,
+#carousel .container{
+	height: 100%;
+}
+#lugar{
+	background: #252525;
+	color: white;
+}
+#lugar .row div{
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0;
+	
+}
+#pie{
+	background: black;
+	color: white;
+}
+#pie a{
+	
+	color: white;
+}
